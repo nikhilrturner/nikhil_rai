@@ -1,0 +1,62 @@
+@font-face{
+	font-family: "MASQUE";
+	src: url("fonts/MASQUE__.ttf");
+}
+@font-face{
+	font-family: "KOMIKAX";
+	src: url("fonts/komikax_.ttf");
+}
+@font-face{
+	font-family: "GovtAgent";
+	src: url("fonts/GovtAgentBB.ttf");
+}
+
+
+body{
+	background-color: #FFFFFF;
+	padding: 0px;
+}
+
+header{
+	display: inline-block;
+	width: 15%;
+	background-color: #0777B9;
+	height: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0%;
+	font-family: "MASQUE";
+}
+
+h1{
+	font-size: 250%;
+}
+
+h2{
+	font-size: 150%;
+}
+header a{
+	display: block;
+	text-decoration: none;
+	color: #FFFFFF;
+	margin: 10px auto;
+	text-align: center;
+}
+
+
+main{
+	display: inline-block;
+	width: 83%;
+	position: absolute;
+	left: 15%;
+	padding: 1%;
+	font-family: "GovtAgent";
+}
+
+#about a{
+	color: #525252;
+}
+
+#about{
+	height: 100%;
+}
